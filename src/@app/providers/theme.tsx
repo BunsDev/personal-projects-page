@@ -30,6 +30,7 @@ const optionsTheme = {
     orange: "#ff890f",
     yellow: "#f5e765",
     limeGreen: "#69d681",
+    purple: "#8442F8",
     grayish: "#808385",
     black: "#000",
     blue: "#1976d2",
@@ -39,6 +40,7 @@ const optionsTheme = {
   borders: {
     grayBorder: "rgba(0, 0, 0, 0.05)",
     grayLight: "#e1e1e1",
+    black: "#000000",
     moderateBlue: "#4f4ca0",
   },
 };

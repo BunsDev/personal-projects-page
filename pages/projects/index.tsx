@@ -18,7 +18,7 @@ const Projects = () => {
     return (
         <>
             <Head>
-                <title>Sieugene | Projects</title>
+                <title>Enchantress | Projects</title>
             </Head>
             <div
                 css={css`
@@ -77,7 +77,7 @@ const Projects = () => {
             <h2>
                 {t('empty.check_on')}{' '}
                 <a
-                    href="https://github.com/sieugene"
+                    href="https://github.com/BunsDev"
                     target="_blank"
                     rel="noreferrer"
                     css={css`

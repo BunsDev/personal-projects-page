@@ -12,14 +12,14 @@ const HomePage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Sieugene | {t("meta.personal")}</title>
+        <title>Enchantress | {t("meta.personal")}</title>
         <meta
           name="description"
-          content="My name is Eugene, my main area of frontend development, Next(React), Apollo. I am engaged in web development since 2019."
+          content="My name is Buns Enchantress and I am a full-stack, blockchain developer."
         />
         <meta
           name="keywords"
-          content="sieugene, eugene poluakov, Евгений Поляков, frontend developer, react developer, russia"
+          content="enchantress, buns enchantress, full-stack developer, blockchain developer, react developer"
         />
       </Head>
       <Wrapper>

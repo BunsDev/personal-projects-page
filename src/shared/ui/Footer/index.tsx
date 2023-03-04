@@ -8,11 +8,11 @@ import { Habr } from 'shared/icons'
 const Footer = () => {
     const socials = [
         {
-            link: 'https://github.com/sieugene',
+            link: 'https://github.com/BunsDev',
             icon: <GitHubIcon />,
         },
         // {
-        //   link: "https://career.habr.com/sieugene",
+        //   link: "https://",
         //   icon: (
         //     <Habr
         //       css={css`
@@ -24,11 +24,11 @@ const Footer = () => {
         //   ),
         // },
         {
-            link: 'https://www.linkedin.com/in/sieugene',
+            link: 'https://www.linkedin.com/in/Buns',
             icon: <LinkedInIcon />,
         },
         {
-            link: 'mailto:sieugene@mail.ru',
+            link: 'mailto:bunsthedev@mail.ru',
             icon: <AlternateEmailIcon />,
             withoutTarget: true,
         },
@@ -37,8 +37,8 @@ const Footer = () => {
     return (
         <StyledFooter>
             <div>
-                <h1>Eugene Poluakov</h1>
-                <h3>Frontend developer.</h3>
+                <h1>Buns Enchantress</h1>
+                <h3>Full-Stack Developer</h3>
             </div>
             <Social>
                 {socials.map((social, index) => {
@@ -59,7 +59,7 @@ const Footer = () => {
 }
 
 const StyledFooter = styled.footer`
-    border-top: 1px solid ${(props) => props.theme.borders.grayBorder};
+    border-top: 1px solid ${(props) => props.theme.borders.black};
     margin-top: 60px;
     margin-bottom: 3rem;
     padding-top: 10px;

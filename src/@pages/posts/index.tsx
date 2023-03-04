@@ -13,7 +13,7 @@ const PostsPage = ({ fallback }: PostsPageFallbackProps) => {
   return (
     <>
       <Head>
-        <title>Sieugene | Notes</title>
+        <title>Enchantress | Notes</title>
       </Head>
 
       <SWRConfig value={{ fallback }}>

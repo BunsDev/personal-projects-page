@@ -31,7 +31,7 @@ const PostPage = ({ fallback }: PostPageFallbackProps) => {
   return (
     <>
       <Head>
-        <title>Sieugene | {title}</title>
+        <title>Enchantress | {title}</title>
       </Head>
 
       <SWRConfig value={{ fallback }}>

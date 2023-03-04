@@ -1,7 +1,8 @@
 {
-  "fullname": "Eugene.Poluakov",
+  "fullname": "Buns Enchantress",
   "links": {
     "home": "Home",
+    "articles": "Articles",
     "notes": "Notes",
     "projects": "Projects"
   },
@@ -10,7 +11,7 @@
     "notes": "to notes"
   },
   "home": {
-    "about": "My name is Eugene, I'm a frontend developer.",
+    "about": "My name is Buns, I'm a full-stack developer.",
     "me": "About me",
     "topic_1": "This block welcomes you. \n the website is a kind of blog about me and web technologies.",
     "topic_2": "Projects by category/stack",

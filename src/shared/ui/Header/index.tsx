@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { SwitchLanguage } from "entities/switchLanguage/ui";
+// import { SwitchLanguage } from "entities/switchLanguage/ui";
 import useTranslation from "next-translate/useTranslation";
 import Link from "next/link";
 import { ROUTES } from "shared/lib";
@@ -11,6 +11,10 @@ const Header = () => {
     {
       title: t("links.home"),
       href: ROUTES.home,
+    },
+    {
+      title: t("links.articles"),
+      href: ROUTES.articles,
     },
     {
       title: t("links.notes"),
@@ -26,22 +30,30 @@ const Header = () => {
     <header>
       <Wrapper>
         <Header.Links>
+        <div className="" style={{ columns: 4 }} >
           {links?.map((link, index) => {
             return (
-              <Link href={link.href} key={index}>
-                <a href={link.href}>{link.title}</a>
-              </Link>
+              <div className="">
+                <Link href={link.href} key={index}>
+                  <div
+                    style={{ border: "12" }}
+                  >
+                  <a href={link.href}>{link.title}</a>
+                  </div>
+                </Link>
+              </div>
             );
           })}
+          </div>
         </Header.Links>
         <div>
           <Header.LogoSection>
-            <Link href={ROUTES.home}>
+            {/* <Link href={ROUTES.home}>
               <a href={ROUTES.home}>
                 <h1>{t("fullname")}</h1>
               </a>
-            </Link>
-            <SwitchLanguage />
+            </Link> */}
+            {/* <SwitchLanguage /> */}
           </Header.LogoSection>
         </div>
       </Wrapper>
